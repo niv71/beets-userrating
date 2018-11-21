@@ -119,7 +119,7 @@ class MP3UserRatingStorageStyle(mediafile.MP3StorageStyle):
 
     # The ordered list of which "email" entries we will look
     # for/prioritize in POPM tags.  Should eventually be configurable.
-    popm_order = ["Banshee"]
+    popm_order = ["no@email", "Windows Media Player 9 Series", "rating@winamp.com", "", "Banshee"]
 
     def get(self, mutagen_file):
         # Create a map of all our email -> rating entries
